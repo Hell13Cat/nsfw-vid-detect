@@ -1,3 +1,10 @@
+# Test files
+
+data/vids/*
+data/screen/*
+data/json/*
+data/*.*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
