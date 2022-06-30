@@ -4,7 +4,10 @@ data/vids/*
 data/screen/*
 data/json/*
 data/*.*
-
+!data/vids/example.mp4
+!data/example.mp4.html
+!data/json/example.mp4.json
+!data/screen/example.mp4
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

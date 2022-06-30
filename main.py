@@ -14,7 +14,7 @@ def save_frame(screen_folder, secs, vid):
     return save_name
 
 model = predict.load_model('./data/model/nsfw_mobilenet2.224x224.h5')
-file_path = "./data/vids/5.mp4"
+file_path = "./data/vids/example.mp4"
 vid = cv2.VideoCapture( file_path )
 height = vid.get(cv2.CAP_PROP_FRAME_HEIGHT)
 width = vid.get(cv2.CAP_PROP_FRAME_WIDTH) 
